@@ -19,7 +19,7 @@ Program ini merupakan implementasi **Brent's Method** dalam bahasa **C++** untuk
 
 ### 🔍 Apa itu Brent's Method?
 
-Brent's Method, yang dikembangkan oleh Richard Brent pada tahun 1973, adalah algoritma pencarian akar yang secara adaptif memilih strategi terbaik berdasarkan kondisi iterasi saat ini. Metode ini menggabinkan:
+Brent's Method, yang dikembangkan oleh Richard Brent pada tahun 1973, adalah algoritma pencarian akar yang secara adaptif memilih strategi terbaik berdasarkan kondisi iterasi saat ini. Metode ini menggabungkan:
 
 1. **Inverse Quadratic Interpolation** - Menggunakan tiga titik untuk membentuk parabola terbalik
 2. **Secant Method** - Menggunakan dua titik untuk aproksimasi linear
@@ -34,8 +34,6 @@ Brent's Method, yang dikembangkan oleh Richard Brent pada tahun 1973, adalah alg
 - **Robust**: Stabil untuk berbagai jenis fungsi matematika
 
 ### 🧮 Fungsi Yang Diuji
-
-Program ini telah diuji pada berbagai jenis fungsi untuk memvalidasi performanya:
 
 1. **f₁(x) = x³ - 2x - 5**
    - Fungsi polinomial kubik
